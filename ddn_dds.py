@@ -6,7 +6,7 @@ from PIL import Image
 import numpy as np
 
 def is_ddn_file(filename):
-    return filename.endswith('_ddn.dds') || filename.endswith('_DDN.dds')
+    return filename.endswith('_ddn.dds') or filename.endswith('_DDN.dds')
 
 def process_dds_file(filepath):
     
